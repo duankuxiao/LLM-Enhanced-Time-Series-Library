@@ -1,9 +1,9 @@
 from torch.utils.data import DataLoader
-from data_provider.data_loader_cumstom import Dataset_cumstom
+from data_provider.data_loader_custom import Dataset_Custom
 
 
 def data_provider(args, flag):
-    Data = Dataset_cumstom
+    Data = Dataset_Custom
     timeenc = 0 if args.embed != 'timeF' else 1
     percent = args.percent
     drop_last = True
