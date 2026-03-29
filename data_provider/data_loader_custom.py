@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-class Dataset_cumstom(Dataset):
+class Dataset_Custom(Dataset):
     def __init__(self,configs, root_path, flag='train', size=None,
                  features='S', data_path='PV_power.csv',
                  target=['PV'], scale=True, timeenc=0, freq='h', percent=100,seasonal_patterns=None):
