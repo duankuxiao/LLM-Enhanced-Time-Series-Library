@@ -74,6 +74,7 @@ If you find this work useful, please cite our paper:
   title={A novel attention-enhanced LLM approach for accurate power demand and generation forecasting},
   author={Hu, Zehuan and Gao, Yuan and Sun, Luning and Mae, Masayuki},
   journal={Renewable Energy},
+  volume={252},
   pages={123465},
   year={2025},
   publisher={Elsevier}
