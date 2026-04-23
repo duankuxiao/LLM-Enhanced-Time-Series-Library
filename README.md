@@ -2,7 +2,7 @@
 <h1 align="center">LLMformer: Probabilistic Forecasting with Large Language Models</h1>
 
 <p align="center">
-  This repository contains the official implementation of the paper "LLMformer: Hybrid LLM-Transformer Model for Probabilistic Time Series Forecasting".
+  This repository contains the official implementation of the paper "A novel LLM–Transformer Framework with Adaptive Loss for Deterministic and Probabilistic Forecasting of Electricity Demand and Generation".
 </p>
 
 ## Overview
@@ -82,11 +82,11 @@ The model outputs:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{llmformer2024,
-  title={LLMformer: Hybrid LLM-Transformer Model for Probabilistic Time Series Forecasting},
+@article{llmformer2026,
+  title={A novel LLM–Transformer Framework with Adaptive Loss for Deterministic and Probabilistic Forecasting of Electricity Demand and Generation},
   author={},
   journal={},
-  year={2024}
+  year={2026}
 }
 ```
 
