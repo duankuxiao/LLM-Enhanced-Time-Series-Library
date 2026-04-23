@@ -86,15 +86,16 @@ if __name__ == '__main__':
 
     all_results = []
 
-    model_list = ['RNN', 'Transformer', 'Informer', 'iTransformer', 'TimesNet', 'PatchTST', 'LLMformer']
+    model_list = ['LSTM', 'Transformer', 'Informer', 'iTransformer', 'TimesNet', 'PatchTST', 'LLMformer']
 
     for data in ['tokyo']:  # 'Sapporo','Sendai','Fukuoka','Tokyo'   'hokkaido', 'kyushu', 'tohoku'
+        for loss_method in ['hybridmu']:  # 'g' 'mse' 'msemu' 'hybridmu'   'adaptive'
             for model in model_list:
-
                 args = deepcopy(default_args)
                 args.data_path = '{}.csv'.format(data)
                 args.source_data_path = '{}.csv'.format(data)
                 args.task_name = 'interval_forecast'  # 'interval_forecast'  'long_term_forecast'
+                args.loss_method = loss_method
 
                 args.seq_len = 72
                 args.pred_len = 24

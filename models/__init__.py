@@ -4,6 +4,6 @@ from .DLinear import Model as DLinear
 from .Informer import Model as Informer
 from .Transformer import Model as Transformer
 from .iTransformer import Model as iTransformer
-from .RNN import Model as RNN
+from .LSTM import Model as RNN
 from .PatchTST import Model as PatchTST
 from .LLMformer import Model as LLMformer

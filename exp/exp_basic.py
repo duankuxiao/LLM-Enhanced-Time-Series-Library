@@ -1,6 +1,6 @@
 import os
 import torch
-from models import TimeLLM, TimesNet, DLinear, Informer, Transformer, iTransformer, RNN, PatchTST, LLMformer
+from models import TimeLLM, TimesNet, DLinear, Informer, Transformer, iTransformer, LSTM, PatchTST, LLMformer
 
 
 class Exp_Basic(object):
@@ -13,14 +13,10 @@ class Exp_Basic(object):
             'Transformer': Transformer,
             'TimeLLM': TimeLLM,
             'iTransformer': iTransformer,
-            'RNN': RNN,
+            'LSTM': LSTM,
             'PatchTST':PatchTST,
             'LLMformer':LLMformer,
         }
-        if args.model == 'Mamba':
-            print('Please make sure you have successfully installed mamba_ssm')
-            from models import Mamba
-            self.model_dict[Mamba] = Mamba
 
         self.f_dim = self.args.c_out
         if args.accelerate:
