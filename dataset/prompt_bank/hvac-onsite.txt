@@ -1,1 +1,0 @@
-This is the operating data of an HVAC system, which contains meteorological indicators and measured indicators, such as electricity, temperature, humidity, etc.
