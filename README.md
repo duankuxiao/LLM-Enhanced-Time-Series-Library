@@ -94,11 +94,14 @@ The model supports three types of missing data patterns:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{imputellm2024,
-  title={ImputeLLM: Large Language Model Enhanced Time Series Imputation},
-  author={},
-  journal={},
-  year={2024}
+@article{hu2026imputellm,
+  title={ImputeLLM: A prompt-free large language model framework for robust time-series imputation in HVAC systems},
+  author={Hu, Zehuan and Gao, Yuan and Cai, Gangwei and Liu, Mingzhe and Ke, Yan and Ruan, Yingjun},
+  journal={Applied Energy},
+  volume={414},
+  pages={127822},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
