@@ -78,19 +78,22 @@ If you use this code, please cite the relevant paper(s):
   title={A novel attention-enhanced LLM approach for accurate power demand and generation forecasting},
   author={Hu, Zehuan and Gao, Yuan and Sun, Luning and Mae, Masayuki},
   journal={Renewable Energy},
+  volume={252},
   pages={123465},
   year={2025},
   publisher={Elsevier}
 }
 
-@article{llmformer2025,
-  title={LLMformer: Hybrid LLM-Transformer Model for Probabilistic Time Series Forecasting},
-  year={2025}
+@article{hu2026imputellm,
+  title={ImputeLLM: A prompt-free large language model framework for robust time-series imputation in HVAC systems},
+  author={Hu, Zehuan and Gao, Yuan and Cai, Gangwei and Liu, Mingzhe and Ke, Yan and Ruan, Yingjun},
+  journal={Applied Energy},
+  volume={414},
+  pages={127822},
+  year={2026},
+  publisher={Elsevier}
 }
 
-@article{imputellm2025,
-  title={ImputeLLM: Large Language Model Enhanced Time Series Imputation},
-  year={2025}
-}
+
 ```
 
